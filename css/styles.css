@@ -5,16 +5,155 @@ body {
 .main-container {
   display: flex;
   flex-direction: row-reverse;
-  width: 1200px;
   background-color: #fff;
+  width: 1200px;
   margin: 40px auto;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.main-content {
+  padding: 100px 150px;
 }
 .about-me-profession {
   font-size: 14px;
   font-weight: 700;
   color: #000;
+  padding: 35px 0 0 0;
 }
+.about-me-name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 55px;
+
+  color: #000000;
+  margin: 19px 0 0 0;
+}
+.description {
+  width: 400px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+.projects-header {
+  margin: 30px 0 0 0;
+}
+.main-list {
+  padding: 0 0 0 19px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  width: 509px;
+}
+.main-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  margin: 0 0 0 5px;
+}
+.main-link-bracket {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+.dots {
+  border: 1px dashed #a8a8a8;
+}
+.job-position {
+  margin: 10px 0 5px 0;
+}
+.period {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+  margin: 0 0 0 0;
+}
+.period-symbol {
+  color: #000000;
+}
+.company {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fb6d3a;
+}
+.university {
+  color: #fb6d3a;
+  margin: 10px 0 0 0;
+}
+.specialty {
+  margin: 10px 0 9px 0;
+}
+.job-header,
+.education-header {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000000;
+  margin: 45px 0 0 0;
+}
+
 .sidebar {
   background-color: #1e2939;
+  color: #fff;
+}
+.image {
+  padding-top: 30px;
+}
+
+.sidebar-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  margin-bottom: 8px;
+}
+
+.sidebar-contacts-type {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.sidebar-contacts-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  margin-left: 10px;
+  color: #fff8;
+}
+
+.contacts-container,
+.tech-skills-container,
+.soft-skills-container {
+  margin: 50px 0 0 40px;
+}
+
+.sidebar-list {
+  padding: 0 0 0 19px;
+}
+.sidebar-list-item {
+  color: #fb6d3a;
+}
+
+.sidebar-list-item-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
   color: #fff;
 }
